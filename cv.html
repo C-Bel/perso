@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery.parallax-1.1.js"></script>
+    <link rel="stylesheet" href="cv.css" media="screen" title="no title">
+    <title>Curriculum vitae</title>
+  </head>
+  <body>
+    <div class="img1"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    <div class="img4"></div>
+        <div id='slide1'>
+          <h1>Curriculum Vitae Developper WEB</h1>
+            <div class="montgolfiere1"></div>
+            <p>Christophe BELLO</p>
+            <p>Née le 02/04/1996</p>
+            <p>Demeurant au 1 D place de l'abbaye 30100 ALès. </p>
+            <p>Numéro de téléphone : 06.59.93.19.42</p>
+          </div>
+
+        </div>
+
+        <div id='slide2'>
+          <div class='slide_inside'>
+          <h2>~ Formation ~</h2>
+            <p>Formation de développer WEB et application by SIMPLON.</p>
+            <p>Baccalauréat Professionnel COMMERCE.</p>
+            <p>BEP MSA (Métier des Services Administratifs)</p>
+            <p>Brevet des collèges</p>
+          </div>
+
+          <div class='slide_inside2'>
+          <h2>~ Centres d'interets ~</h2>
+            <p>L'informatique </p>
+            <p>Les animaux </p>
+            <p>La randonnées </p>
+            <p>Voyager</p>
+          </div>
+        </div>
+
+        <div id='slide3'>
+          <div class='slide_inside'>
+          <h2>~ Expériences professionnelles ~</h2>
+            <p>Projet Site web URBAN PARC à Alès.</p>
+            <p>Projet découverte du code avec "Hour of code" pour des élèves de 3eme.</p>
+          </div>
+
+          <div class='slide_inside'>
+          <h2>~ Languages ~</h2>
+          <div class="devicon">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <i class="devicon-php-plain colored"></i>
+          </div>
+          </div>
+          <div class='slide_inside'>
+          <h2>~ Autres compétences ~</h2>
+          <div class="devicon">
+            <i class="devicon-linux-plain colored"></i>
+            <i class="devicon-mysql-plain-wordmark colored"></i>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-github-plain-wordmark colored"></i>
+            <i class="devicon-trello-plain-wordmark colored"></i>
+          </div>
+          </div>
+        </div>
+
+      <script type="text/javascript">
+      $(document).ready(function(){
+	    $('#slide1').parallax("center", 0, 0.1, true);
+	    $('#slide2').parallax("center", 900, 0.1, true);
+	    $('#slide3').parallax("center", 2900, 0.1, true);
+	})
+      </script>
+  </body>
+</html>

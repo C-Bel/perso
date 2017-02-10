@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="vide.css" media="screen" title="no title">
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    function defile(idImg, duree){
+        hFen = $(window).height();
+        hImg = $(idImg).height();
+
+        hTot = hFen + hImg;
+
+        $(idImg).animate({ top: "+="+hTot }, 3000);
+    }
+
+    defile(troll, 10000);
+});
+
+    </script>
+  </head>
+  <body>
+    <img id="troll" src="montgo.png">
+
+  </body>
+</html>

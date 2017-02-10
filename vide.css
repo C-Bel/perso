@@ -1,0 +1,15 @@
+
+#troll{
+    position: absolute;
+    display: block;
+    width: 25em;
+    height: 25em;
+
+    /*Centrer l'image verticalement*/
+    margin-left: auto;
+    left: 0;
+    right: 0;
+
+    /*Sort l'image en haut de l'écran (height en negatif)*/
+    top: -795px;
+}

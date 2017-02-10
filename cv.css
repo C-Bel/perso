@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #E6E7E8;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'celticmd', cursive;
+  font-size: 3em;
+  margin-top: -2em;
+  color: white;
+  text-shadow:4px 4px black;
+}
+
+p{
+  font-family: 'celticmd', cursive;
+}
+
+.img1{
+  -moz-animation: fadein 10s;
+  background-image: url(bo.png);
+  height: 20em;
+  width: 15em;
+  top: 10em;
+  left: 3em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.img2{
+  -moz-animation: fadein 12s;
+  background-image: url(po.png);
+  height: 35em;
+  width: 25em;
+  top: 35em;
+  left: 35em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.img3{
+  -moz-animation: fadein 14s;
+  background-image: url(balloon2.png);
+  height: 25em;
+  width: 15em;
+  top: 25em;
+  left: 80em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.img4{
+  -moz-animation: fadein 16s;
+  background-image: url(mo.png);
+  height: 25em;
+  width: 15em;
+  top: 10em;
+  left: 90em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#slide2, #slide3, #slide4{
+  height: 60em;
+  padding-top: 3em;
+}
+#slide1{
+  background: url(fa.jpg) center 0 no-repeat fixed;
+  height: 50em;
+  padding-top: 10em;
+}
+
+#slide2{
+  background: url(nua.png) center 0 no-repeat fixed;
+}
+
+#slide3 {
+   background: url(cielo.jpg) center 0 no-repeat fixed;
+}
+
+#slide4 {
+   background: url(cielo.jpg) center 0 no-repeat fixed;
+}
+
+#slide1 h1{
+  -moz-animation: fadein 4s;
+}
+
+#slide1 p{
+  -moz-animation: fadein 10s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#slide2 .slide_inside{
+  width: 60em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+  background: grey;
+  color: white;
+  background-color: rgba(249,249,249,0.2);
+  border: solid darkgray;
+}
+
+#slide2 .slide_inside2{
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 13%;
+  background: grey;
+  color: white;
+  background-color: rgba(249,249,249,0.2);
+  border: solid darkgray;
+}
+
+@font-face {
+  src: url("celticmd.ttf");
+  font-family: "celticmd";
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
